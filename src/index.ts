@@ -1,7 +1,10 @@
 import express, { Request, Response } from "express";
+import dotenv from "dotenv";
 import path from "path";
 const app = express();
-const port = 8080; // default port to listen
+
+// initialize configuration
+dotenv.config();
 
 // Configure Express to use EJS
 app.set("views", path.join(__dirname, "views"));
@@ -13,6 +16,6 @@ app.get("/", (req: Request, res: Response) => {
   res.render("index");
 });
 // start the Express server
-app.listen(port, () => {
-  console.log(`server started at http://localhost:${port}`);
+app.listen(process.env.SERVER_PORT, () => {
+  console.log(`server started at http://localhost:${process.env.SERVER_PORT}`);
 });
