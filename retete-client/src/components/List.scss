@@ -1,0 +1,23 @@
+.inColoana {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    &_item {
+        margin: 20px 0;
+    }
+}
+
+.cardBody {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+.itemStack {
+    display: flex;
+    justify-content: space-between;
+}
+
+.itemButton {
+    min-width: 100px;
+}
