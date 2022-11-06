@@ -8,6 +8,9 @@ const app = express();
 // initialize configuration
 dotenv.config();
 
+// Serve static for react client
+app.use(express.static(path.join(__dirname, '../retete-client/build')));
+
 // Configure Express to use EJS
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
