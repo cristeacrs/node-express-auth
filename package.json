@@ -1,6 +1,6 @@
 {
   "name": "node-express-auth",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "auth",
   "main": "index.js",
   "repository": "https://github.com/cristeacrs/node-express-auth.git",
