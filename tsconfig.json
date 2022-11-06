@@ -4,7 +4,7 @@
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "esModuleInterop": true,
-    "target": "es6",
+    "target": "ES2021",
     "noImplicitAny": true,
     "moduleResolution": "node",
     "sourceMap": true,
