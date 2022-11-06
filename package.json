@@ -1,0 +1,9 @@
+{
+  "name": "node-express-auth",
+  "version": "1.0.0",
+  "description": "auth",
+  "main": "index.js",
+  "repository": "https://github.com/cristeacrs/node-express-auth.git",
+  "author": "cristeacrs <cristea.cristi@yahoo.com>",
+  "license": "MIT"
+}
