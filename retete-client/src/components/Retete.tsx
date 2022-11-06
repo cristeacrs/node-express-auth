@@ -53,10 +53,10 @@ const Retete = () => {
     return(<div className="container">
         <h1 style={{textAlign: "center"}} >Retete app</h1>
 
-        { retete.length === 0 
-        ? <h2> No items found. Use the form to add one</h2>
-        : 
-        <List onDelete={onDelete} onEdit={onEdit} items={retete} /> 
+        { retete.length === 0 ?
+            <h2> No items found. Use the form to add one</h2>
+            : 
+            <List onDelete={onDelete} onEdit={onEdit} items={retete} /> 
         }
         
     </div>)
