@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "https://github.com/cristeacrs/node-express-auth.git",
   "author": "cristeacrs <cristea.cristi@yahoo.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
